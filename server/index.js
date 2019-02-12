@@ -17,3 +17,7 @@ app.use(bodyParser.urlencoded({extended:true}))
 
 //plug in API routes here
 app.use('/api', require('./apiRoutes'))
+
+app.get('*', function(req,res){
+  res.sendFile(path.join(__dirname,'..','public'))
+})
