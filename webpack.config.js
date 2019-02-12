@@ -1,6 +1,6 @@
 module.exports = {
   entry: './client/index.js',
-  mode: 'development',
+  mode: 'development', //make sure to change to production when moving forward
   output: {
     path: __dirname + "/public",
     filename: 'bundle.js'
