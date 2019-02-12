@@ -2,10 +2,10 @@
   "name": "searavendevelopment",
   "version": "1.0.0",
   "description": "Personal Site",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack -w & nodemon server -w"
+    "start": "webpack -w & nodemon ./server/main -w"
   },
   "author": "",
   "license": "ISC",
