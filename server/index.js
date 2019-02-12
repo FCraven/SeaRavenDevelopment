@@ -14,3 +14,6 @@ app.use(express.static(path.join(__dirname, '..', 'public')))
 //parsing middleware
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true}))
+
+//plug in API routes here
+app.use('/api', require('./apiRoutes'))
