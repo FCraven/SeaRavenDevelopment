@@ -1,4 +1,5 @@
 const db = require('./db')
+const User = require('./user')
 // require in each of your models here...
 //const blog = require('./modelExample')
 
@@ -6,7 +7,8 @@ const db = require('./db')
 //Blog.hasOne(Author)
 
 module.exports= {
-  db
+  db,
+  User
   //add any models here
   //Blog
 }
