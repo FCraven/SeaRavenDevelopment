@@ -11,7 +11,7 @@ export default class Main extends Component {
 
   render() {
     return (
-      <div>
+      <div >
       <h1> Hello World. I exist.</h1>
       </div>
     )
