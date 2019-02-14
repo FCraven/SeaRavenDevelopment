@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 
+
 export default class Main extends Component {
   constructor(props) {
     super(props)
@@ -12,8 +13,8 @@ export default class Main extends Component {
   render() {
     return (
       <div >
-      <h1> Hello World. I exist.</h1>
-      </div>
+        <h1> Hello World. I exist.</h1>
+      </div >
     )
   }
 }
