@@ -19,11 +19,19 @@ module.exports = {
     rules: [
       {
         test: /\.jsx?$/,
+        exclude: /(node_modules|bower_components)/,
         // include: [
         //   path.resolve(__dirname, 'client')
         // ],
         loader: 'babel-loader'
-      }
+        },
+        {
+          test: /\.css$/,
+          use: [
+            'style-loader',
+            'css-loader',
+          ]
+        }
     ]
   }
 }
