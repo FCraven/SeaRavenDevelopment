@@ -5,14 +5,14 @@ export default class Footer extends Component {
     super(props)
 
     this.state = {
-       
+
     }
   }
 
   render() {
     return (
       <div>
-
+        <h1>Footer</h1>
       </div>
     )
   }
