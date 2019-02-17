@@ -12,6 +12,8 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
+      <header>SeaRaven Development</header>
+      
       <h1>Navbar</h1>
       </div>
     )
