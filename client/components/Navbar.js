@@ -15,6 +15,7 @@ export default class Navbar extends Component {
       <header>SeaRaven Development</header>
       <h1> tomorrow begin crushing it</h1>
       <h1>Navbar</h1>
+      
       <a>Projects</a>
       <a>About Me</a>
       </div>
