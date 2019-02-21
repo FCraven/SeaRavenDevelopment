@@ -12,7 +12,13 @@ export default class Main extends Component {
 
   render() {
     return (
-      <Hero />
+      <div>
+        <Hero />
+        <h1>SPACE</h1>
+        <h1>SPACE</h1>
+        <h1>SPACE</h1>
+        <h1>SPACE</h1>
+      </div>
     )
   }
 }

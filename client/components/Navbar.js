@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import {  Navbar as BootNav } from 'react-bootstrap'
+import { Navbar as BootNav } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 export default class Navbar extends Component {
   constructor(props) {
@@ -13,19 +14,19 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-      <BootNav bg="dark" variant="warning">
-        <BootNav.Brand href="#">
-          <img
-            alt="a white raven"
-            src="/seaRavenLight.png"
-            width="30"
-            height="30"
-            className="d-inline-block align-top"
-          />
-        {' SeaRaven Development'}
-      </BootNav.Brand>
-    </BootNav>
-    </div>
+        <BootNav fixed="top" bg="dark" variant="dark">
+          <BootNav.Brand href="#">
+            <img
+              alt="a white raven"
+              src="/seaRavenLight.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />
+            {' SeaRaven Development'}
+          </BootNav.Brand>
+        </BootNav>
+      </div>
     )
   }
 }
