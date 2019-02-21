@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import Hero from './Hero'
 
 export default class Main extends Component {
   constructor(props) {
@@ -12,10 +12,7 @@ export default class Main extends Component {
 
   render() {
     return (
-      <div >
-        <h1> Hello World. I exist.</h1>
-        <h3> get smooovin</h3>
-      </div >
+      <Hero />
     )
   }
 }
