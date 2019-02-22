@@ -14,6 +14,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
+        <div className="navbar">
         <BootNav fixed="top" bg="dark" variant="dark">
           <BootNav.Brand href="#">
             <img
@@ -26,6 +27,7 @@ export default class Navbar extends Component {
             {' SeaRaven Development'}
           </BootNav.Brand>
         </BootNav>
+        </div>
       </div>
     )
   }
