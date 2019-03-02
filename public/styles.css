@@ -1,12 +1,16 @@
 body {
   background-color: seashell;
- 
+
 }
 
 .hero-banner {
-  background-image: grey;
+  background-image: url('/hero_background.jpg');
   box-shadow: 0px 5px 20px 1px #888888;
-
+  font-family: 'Josefin slab', serif;
+  background-size: cover;
+  background-position: center;
+  min-height:200px;
+  height: 300px;
 }
 
 .navbar {
