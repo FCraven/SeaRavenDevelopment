@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Hero from './Hero'
+import Stack from './Stack'
 
 export default class Main extends Component {
   constructor(props) {
@@ -14,10 +15,7 @@ export default class Main extends Component {
     return (
       <div>
         <Hero />
-        <h1>Try to go ahead with the idea that in black and white the resume is all professional and then when the them changes go super rad color explosion</h1>
-        <h1>SPACE</h1>
-          <h1>SPACE</h1>
-          <h1>SPACE</h1>
+        <Stack />
       </div>
         )
       }
