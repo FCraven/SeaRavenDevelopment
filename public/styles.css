@@ -1,5 +1,5 @@
 body {
-  background-color: seashell;
+  background-color: white;
 
 }
 
@@ -20,6 +20,15 @@ body {
 .navbar {
   font-family: 'Josefin slab', serif;
   color: black;
-  text-shadow: 2px 2px 2px slategray;
-  
+  /* text-shadow: 2px 2px 2px slategray; */
+}
+
+.navbar-brand {
+  font-size: 1.4em;
+}
+
+.nav-item {
+  font-size: 1.4em;
+  font-weight: bold;
+
 }
