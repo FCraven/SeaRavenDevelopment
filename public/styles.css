@@ -4,15 +4,22 @@ body {
 }
 
 .hero-banner {
-  background-image: url('/hero_background.jpg');
+  background-color: darkcyan;
   box-shadow: 0px 5px 20px 1px #888888;
   font-family: 'Josefin slab', serif;
   background-size: cover;
   background-position: center;
   min-height:200px;
-  height: 300px;
+  height: 400px;
+}
+
+.transparent {
+  background: none;
 }
 
 .navbar {
-  box-shadow: 0px 5px 20px 1px #888888;
+  font-family: 'Josefin slab', serif;
+  color: black;
+  text-shadow: 2px 2px 2px slategray;
+  
 }
