@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Hero from './Hero'
 import Stack from './Stack'
+import NavFooter from './NavFooter'
 
 export default class Main extends Component {
   constructor(props) {
@@ -16,6 +17,7 @@ export default class Main extends Component {
       <div>
         <Hero />
         <Stack />
+        <NavFooter />
       </div>
         )
       }
