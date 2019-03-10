@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import stack from '../../src/data'
 
 export default class Stack extends Component {
   render() {
@@ -11,6 +12,18 @@ export default class Stack extends Component {
 
         <div class="card-deck">
           <h1> Stack Component</h1>
+
+
+          <div class="card">
+            <img class="card-img-top" src={stack.imageUrl} alt="Card image cap" />
+            <div class="card-body">
+              <h5 class="card-title">{stack.name}</h5>
+              <p class="card-text">{stack.jobDescription}</p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Created by {stack.creator}</small>
+            </div>
+          </div>
 
           <div class="card">
             <img class="card-img-top" src="..." alt="Card image cap" />
@@ -44,6 +57,7 @@ export default class Stack extends Component {
               <small class="text-muted">Last updated 3 mins ago</small>
             </div>
           </div>
+
         </div>
 
 
