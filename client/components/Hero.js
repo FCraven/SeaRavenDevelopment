@@ -7,6 +7,7 @@ import React from 'react'
       <div className='container text-center'>
         <h1>Having fun creating fun.</h1>
         <p>This is a test case</p>
+        <p> change this to carousel</p>
       </div>
     </div>
   )
