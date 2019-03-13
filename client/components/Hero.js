@@ -5,7 +5,7 @@ import React from 'react'
     <div className='jumbotron jumbotron-fluid text-center bg-dark hero-banner fade-in'>
       <img className='hero-logo' src='/seaRavenLight.png'/>
       <div className='container text-center'>
-        <h1>Test test tesT</h1>
+        <h1>From idea to actual</h1>
         <p>This is a test case</p>
         <p> change this to carousel</p>
       </div>
